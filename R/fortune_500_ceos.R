@@ -1,12 +1,21 @@
 # Fortune 500 CEOs
-# From Diverity in Data, Jan 2021
+# From Diversity in Data, Jan 2021
 # https://data.world/diversityindata/diversityindata-january-2021
 
 # Inspiration: https://www.instagram.com/p/CI2W7sUiPS-/
 
+### Process
+
+# This script builds a transformed data frame
+# The data is then imported into Tableau to build the visual
+# The dataviz animation is captured using ScreenToGif to create a gif
+# The gif is then converted to an mp4 to using ezgif.com
+# The mp4 is then uploaded to Instagram
+# Note Instagram doesn't allow gifs to be uploaded
+
 library(dplyr)
 
-data <- read.csv('data/fortune_500_women_ceos_since_1970.csv', stringsAsFactors = F)
+data <- read.csv('source_data/fortune_500_women_ceos_since_1970.csv', stringsAsFactors = F)
 latest_year <- filter(data,year == '2020')
 
 female_ceos <- latest_year$women
@@ -26,7 +35,7 @@ for(i in 1:20){
 fortune_500_ceos <- data.frame(gender=ceo_gender,representation=society_gender,x=row,y=col,count=ceos,stringsAsFactors = F)
 fortune_500_ceos$id <- paste0(1:500,"-",fortune_500_ceos$gender)
 
-write.csv(fortune_500_ceos,"output_fortune_500_women.csv",row.names = F)
+write.csv(fortune_500_ceos,"transformed_data/output_fortune_500_women.csv",row.names = F)
 
 
 
