@@ -10,7 +10,7 @@ A repo for building instagram posts for the account data.gram
 - [Viz5 (Makeover Monday)][https://www.makeovermonday.co.uk/data/]
 - [Kaggle](https://www.kaggle.com/datasets)
 - [OECD](https://data.oecd.org/healthres/nurses.htm#indicator-chart)
-
+- [Public APIs](https://github.com/public-apis/public-apis)
 
 
 
