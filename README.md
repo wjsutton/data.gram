@@ -7,7 +7,7 @@ A repo for building instagram posts for the account data.gram
 
 - [Project Health Viz](https://vizzendata.com/health-and-healthcare-data-sets/)
 - [Viz for Social Good](https://www.vizforsocialgood.com/join-a-project)
-- [Viz5 (Makeover Monday)][https://www.makeovermonday.co.uk/data/]
+- [Viz5 (Makeover Monday)](https://www.makeovermonday.co.uk/data/)
 - [Kaggle](https://www.kaggle.com/datasets)
 - [OECD](https://data.oecd.org/healthres/nurses.htm#indicator-chart)
 - [Public APIs](https://github.com/public-apis/public-apis)
