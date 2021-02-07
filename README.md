@@ -7,10 +7,10 @@ A repo for building instagram posts for the account data.gram
 
 - [Project Health Viz](https://vizzendata.com/health-and-healthcare-data-sets/)
 - [Viz for Social Good](https://www.vizforsocialgood.com/join-a-project)
-- [Viz5 (Makeover Monday)][https://www.makeovermonday.co.uk/data/]
+- [Viz5 (Makeover Monday)](https://www.makeovermonday.co.uk/data/)
 - [Kaggle](https://www.kaggle.com/datasets)
 - [OECD](https://data.oecd.org/healthres/nurses.htm#indicator-chart)
-
+- [Public APIs](https://github.com/public-apis/public-apis)
 
 
 
@@ -36,3 +36,23 @@ A repo for building instagram posts for the account data.gram
 [Line chart the run across 2 images](https://www.instagram.com/p/CI6dpLBBADl/)
 
 [Gif podcast snippet trailer](https://www.instagram.com/p/CJQHYcQAve9/)
+
+
+### Dashboard to Video Upload Process
+
+For Twitter
+
+1. Record dashboard using Screen2Gif
+2. Edit frames, remember Ctrl + Shift to select all frames in a range
+3. Save video as gif and upload to Twitter
+
+
+For Instagram
+
+1. Record dashboard using Screen2Gif
+2. Edit frames, remember Ctrl + Shift to select all frames in a range
+3. Save video as Video, format AVI
+4. Upload AVI file to [ConvertCloud](https://cloudconvert.com/avi-to-mp4) and convert to MP4
+5. Download MP4 file and upload to [Dropbox](https://www.dropbox.com/home)
+6. On phone, download DropBox files and upload to instagram via app
+
